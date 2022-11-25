@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+.advice-container{
+    background-color: hsl(217, 19%, 24%);
+    height: 100vh;
+    width: 100vw;
+  
+    position: relative;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.advice-box{
+    position: relative;
+    height: 50vh;
+    width: 50%;
+border-radius: 20px;
+    background-color:  hsl(217, 19%, 38%);
+    padding: 5px;
+}
+.advice-no h5{
+    color: hsl(150, 100%, 66%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.advice-content{
+    padding: 10px;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(193, 38%, 86%);
+}
+.dice{
+position: absolute;
+background-color: hsl(150, 100%, 66%);
+height: 100px;
+width: 100px;
+left: 22vw;
+top: 45vh;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+
+}
+.dice:hover{
+    box-shadow: 0 0 50px  hsl(150, 100%, 66%) ;
+    cursor: pointer;
+}
+.dice img{
+ height: 40px;
+
+    
+}
+.line img:nth-child(1){
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .advice-container{
+        background-color: hsl(217, 19%, 24%);
+        height: 90vh;
+        width: 90%;
+        padding-top: 30%;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+    }
+    .advice-box{
+        position: relative;
+        height: 80vh;
+        width: 100%;
+ border-radius: 20px;
+        background-color:  hsl(217, 19%, 38%);
+        padding: 5px;
+    }
+    .advice-no h5{
+        color: hsl(150, 100%, 66%);
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .advice-content{
+        padding: 10px;
+        font-weight: 800;
+        font-size: 25px;
+        font-family: 'Manrope', sans-serif;
+        color: hsl(193, 38%, 86%);
+    }
+.dice{
+    position: absolute;
+    background-color: hsl(150, 100%, 66%);
+    height: 100px;
+    width: 100px;
+    left: 40%;
+    top: 92%;
+    display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+}
+    .dice img{
+     height: 40px;
+  
+        
+    }
+    .line{
+        display: flex;
+justify-content: center;
+align-items: center;    }
+    .line img:nth-child(1){
+        display: block;
+    }
+    .line img:nth-child(2){
+        display: none;
+    }
+}
+
+
+
